@@ -222,7 +222,10 @@ python train_mobilecount_distill.py --epochs 12
 
 ## Author
 
-**Navid** — Phase 1–3 implementation, training, evaluation
+**Navid Nawaj**
+**Sadman Sakib**
+**Sanjana Amira**
+**Anika Tahsin**
 
 ---
 
