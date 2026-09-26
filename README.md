@@ -223,8 +223,11 @@ python train_mobilecount_distill.py --epochs 12
 ## Author
 
 **Navid Nawaj**
+
 **Sadman Sakib**
+
 **Sanjana Amira**
+
 **Anika Tahsin**
 
 ---
