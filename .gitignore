@@ -1,9 +1,46 @@
-data/
-logs/
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+
+# Model checkpoints and weights
+checkpoints/
 *.pth
 *.pt
-checkpoints/
+*.bin
+*.tar.gz
 *.zip
+
+# Datasets and generated density data
+data/
+*.npy
+
+# Training logs and local artifacts
+logs/
+runs/
+wandb/
+demo_result*.png
+
+# Virtual environments
 .venv/
+venv/
+env/
+ENV/
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Office, presentations, and defense materials
+defense_materials/
+archive/
+*.docx
+*.pptx
+~$*
+
+# Operating system files
+.DS_Store
+Thumbs.db

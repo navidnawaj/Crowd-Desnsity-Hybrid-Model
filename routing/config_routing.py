@@ -87,8 +87,14 @@ CSRNET_CHECKPOINT = os.path.join(config.CHECKPOINTS_DIR, "csrnet", "csrnet_best.
 
 # Dense model configuration (Stage 2: MobileCount vs CSRNet)
 DENSE_MODEL_TYPE = "mobilecount"  # "csrnet" or "mobilecount"
-DENSE_CHECKPOINT = os.path.join(config.CHECKPOINTS_DIR, "mobilecount_best.pth")
-if not os.path.exists(DENSE_CHECKPOINT):
+_distilled_path = os.path.join(config.CHECKPOINTS_DIR, "mobilecount_distilled.pth")
+_baseline_path = os.path.join(config.CHECKPOINTS_DIR, "mobilecount_best.pth")
+
+if os.path.exists(_distilled_path):
+    DENSE_CHECKPOINT = _distilled_path
+elif os.path.exists(_baseline_path):
+    DENSE_CHECKPOINT = _baseline_path
+else:
     DENSE_CHECKPOINT = CSRNET_CHECKPOINT
 
 # ============================================================================

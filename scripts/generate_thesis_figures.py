@@ -13,7 +13,8 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 from matplotlib.gridspec import GridSpec
 
-OUT = os.path.join(os.path.dirname(__file__), "thesis_figures")
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(ROOT_DIR, "thesis_figures")
 os.makedirs(OUT, exist_ok=True)
 
 plt.rcParams.update({

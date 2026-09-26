@@ -1,11 +1,18 @@
-# LCDNet Crowd Density Estimation - Dependencies
-# Install with: pip install -r requirements.txt
-
+# Core Deep Learning Framework
 torch>=2.0.0
 torchvision>=0.15.0
+
+# Scientific & Numerical Computing
 numpy>=1.24.0
 scipy>=1.10.0
+
+# Image Processing & Visualization
 Pillow>=9.5.0
-kagglehub>=0.1.0
-tqdm>=4.65.0
 matplotlib>=3.7.0
+
+# Profiling & Progress Utilities
+tqdm>=4.65.0
+thop>=0.1.1
+
+# Dataset Utilities (Optional)
+kagglehub>=0.1.0

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you find this research codebase or hybrid edge crowd density estimation methodology useful in your academic work, please cite it as below."
+authors:
+  - family-names: "Nawaj"
+    given-names: "Navid"
+  - family-names: "Sakib"
+    given-names: "Sadman"
+  - family-names: "Aroni"
+    given-names: "Sanzida Ahmed"
+  - family-names: "Amira"
+    given-names: "Sanjana"
+  - family-names: "Tahsin"
+    given-names: "Anika"
+title: "HybridEdge-Crowd: A Lightweight Density-Adaptive Routing Framework for Real-Time Edge Crowd Counting"
+version: 1.0.0
+date-released: 2026-06-01
+url: "https://github.com/navidnawaj/Crowd-Desnsity-LCDNet-Model"
+keywords:
+  - computer-vision
+  - crowd-counting
+  - density-estimation
+  - edge-ai
+  - knowledge-distillation
+  - dynamic-routing
+  - deep-learning
+  - pytorch
