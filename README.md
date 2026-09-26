@@ -226,6 +226,8 @@ python train_mobilecount_distill.py --epochs 12
 
 **Sadman Sakib**
 
+**Sanzida Ahmed Aroni**
+
 **Sanjana Amira**
 
 **Anika Tahsin**
